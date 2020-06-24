@@ -1,0 +1,123 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: monospace;
+    background-color: red;
+    background-color: hotpink;
+    text-align: center;
+}
+
+/*HEADER*/
+#header{
+    font-size: 20px;
+    margin: 5% auto;
+    padding: 5px;
+    color: black;
+
+}
+#header p{
+    color: grey;
+    padding-top: 5px;
+    font-style: italic;
+    font-size: 16px;
+    font-family: comic-sans;
+}
+
+#form-wrapper{
+    margin-bottom: 5em;
+    padding: auto;
+}
+#survey-form{
+    background-color: pink;
+    margin: 5px 15%;
+    padding: 5%;
+}
+
+#survey-form > div{
+    background-color: rgb(200,225,230);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*FORM TEXTS first three*/
+.form-group > label {
+    margin-bottom: 5px;
+    padding: 5px auto;
+    display: block;
+    text-align: left;
+}
+
+/*FORM TEXTS last three*/
+.form-group p {
+    margin-bottom: 5px;
+    padding: 5px auto;
+    text-align: left;
+
+}
+
+/*TEXTAREA*/
+.form-group textarea {
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    min-width: 75%;
+    max-width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+}
+
+/*checkboxes*/
+.form-group > select {
+    color: grey;
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+
+}
+
+/*RADIO BUTTONS*/
+#gender-select input{
+    background-color: red;
+    width: 15px;
+}
+
+
+
+/*FORM INPUTS block*/
+.form-group{
+    /*background-color: red;*/
+    padding: 5px;
+    margin: 5px auto;
+}
+
+/*input boxes*/
+.form-group > input {
+    color: grey;
+    margin-top: 10px;
+    display: block;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+}
+button{
+    margin-top: 10px;
+    background-color: skyblue;
+    width: 70%;
+    margin: 5px;
+    padding: 10px auto;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+}
